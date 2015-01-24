@@ -13,6 +13,7 @@
 		1F156BCF1A73C9A0005A129F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F156BCE1A73C9A0005A129F /* Images.xcassets */; };
 		1F156BD21A73C9A0005A129F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F156BD01A73C9A0005A129F /* LaunchScreen.xib */; };
 		1F156BDE1A73C9A0005A129F /* TouchAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F156BDD1A73C9A0005A129F /* TouchAnimationTests.swift */; };
+		1F156BE81A73C9C8005A129F /* CircleGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F156BE71A73C9C8005A129F /* CircleGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1F156BD71A73C9A0005A129F /* TouchAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F156BDC1A73C9A0005A129F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F156BDD1A73C9A0005A129F /* TouchAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchAnimationTests.swift; sourceTree = "<group>"; };
+		1F156BE71A73C9C8005A129F /* CircleGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				1F156BC71A73C99F005A129F /* AppDelegate.swift */,
 				1F156BC91A73C99F005A129F /* ViewController.swift */,
+				1F156BE71A73C9C8005A129F /* CircleGradient.swift */,
 				1F156BCB1A73C99F005A129F /* Main.storyboard */,
 				1F156BCE1A73C9A0005A129F /* Images.xcassets */,
 				1F156BD01A73C9A0005A129F /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F156BE81A73C9C8005A129F /* CircleGradient.swift in Sources */,
 				1F156BCA1A73C99F005A129F /* ViewController.swift in Sources */,
 				1F156BC81A73C99F005A129F /* AppDelegate.swift in Sources */,
 			);
